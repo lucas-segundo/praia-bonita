@@ -1,3 +1,12 @@
 .home {
   font-weight: bold;
 }
+
+.mainImage {
+  width: 1440px;
+  height: 500px;
+  position: absolute;
+  top: 84px;
+  left: 50%;
+  transform: translate(-50%);
+}
