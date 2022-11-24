@@ -2,6 +2,13 @@ body {
   font-family: Inter;
 }
 
+.main-image {
+  width: 1440px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
 .call-to-action-section {
   margin-top: 50px;
 }
