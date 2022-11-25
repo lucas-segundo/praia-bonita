@@ -13,6 +13,53 @@ body {
   margin: 0 auto;
 }
 
+.beachs {
+  width: 1300px;
+  height: 460px;
+  margin: 50px auto 0;
+}
+
+.beachs h2 {
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.beachs h2,
+article {
+  font-size: 20px;
+}
+
+.beach-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.beach-card {
+  width: 420px;
+  height: 401px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.beach-card img {
+  width: 420px;
+  height: 200px;
+}
+
+.beach-card-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 20px;
+  gap: 20px;
+}
+
+.beach-card-description h2 {
+  margin: 0;
+}
+
 .call-to-action-section {
   margin-top: git50px;
 }
