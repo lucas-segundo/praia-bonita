@@ -2,10 +2,14 @@
   font-weight: bold;
 }
 
-header {
+.navigator {
   background-color: #f9d199;
   max-width: 100%;
-  height: 84px; 
+  height: 84px;   
+}
+
+.navigator li {
+  margin-right: 80px;
 }
 
 .logo {
@@ -25,26 +29,11 @@ header {
   justify-content: space-between;
   align-items: center;
   display: flex;
+  background-color: #f9d199;
 }
 
 .menu-header ul li {
   display: inline;
-}
-
-.navigator {
-  margin-top: 30px;
-}
-
-.home {
-  margin-right: 80px;
-}
-
-.about {
-  margin-right: 80px;
-}
-
-.contact {
-  margin-right: 70px;
 }
 
 .menu-header ul li a {
@@ -52,4 +41,5 @@ header {
   text-decoration: none;
   display: inline-block;
   color: #000;
+  margin-top: 30px;
 }
