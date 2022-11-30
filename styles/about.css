@@ -51,6 +51,15 @@
   margin-top: 30px;
 }
 
+.title-founder {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
 .container-founder {
   display: flex;
   margin-left: 70px;
