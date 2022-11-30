@@ -5,7 +5,7 @@
 .navigator {
   background-color: #f9d199;
   max-width: 100%;
-  height: 84px;   
+  height: 84px; 
 }
 
 .navigator li {
@@ -13,9 +13,12 @@
 }
 
 .logo {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 24px;
   color: #000;
-  margin-top: 30px;
   margin-left: 70px; 
 }
 
@@ -32,6 +35,10 @@
   background-color: #f9d199;
 }
 
+.menu-header ul {
+  list-style: none;
+}
+
 .menu-header ul li {
   display: inline;
 }
@@ -42,4 +49,38 @@
   display: inline-block;
   color: #000;
   margin-top: 30px;
+}
+
+.container-founder {
+  display: flex;
+  margin-left: 70px;
+  align-items: center;
+} 
+
+.img-founder-jason {
+  width: 150px;
+  height: 150px; 
+}
+
+.name-founder {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  color: #000;
+  margin-left: 30px;
+}
+
+.office-founder {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  color: #000;
+  margin-top: 5px;
+  margin-left: 36px;
+}
+
+.img-founder-maria {
+  width: 150px;
+  height: 150px;
+  margin-left: 90px; 
 }
