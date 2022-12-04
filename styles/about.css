@@ -50,8 +50,7 @@ body {
 }
 
 main {
-  margin: 40px auto 48px;
-  max-width: max-content;
+  margin: 40px 70px 48px;
 }
 
 main > h2 {
@@ -62,8 +61,8 @@ main > h2 {
 
 .content {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: space-between;
   gap: 130px;
 }
 
