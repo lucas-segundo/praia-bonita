@@ -4,10 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <link rel="stylesheet" href="styles/reset.css" />
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT FAMILY -->
+
     <title>CONTATO</title>
   </head>
   <body>
-    <p>CONTATO</p>
+    <header>
+      <nav class="menu-header">
+        <div class="logo">
+          <p>Praia Bonita</p>
+        </div>
+
+        <ul class="navigator">
+          <li class="home"><a href="./index.html">home</a></li>
+          <li class="about"><a href="./about.html">sobre</a></li>
+          <li class="contact"><a href="./contact.html">contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="contact-section">
+      <h1 class="contact-section-title">Fale conosco</h1>
+      <p class="contact-form-subtitle">
+        Preencha os campos abaixo que entraremos em contato.
+      </p>
+      <form class="contact-form">
+        <label for="full-name" class="form-label">Nome Completo</label>
+        <input id="full-name" class="form-input" />
+        <label for="email" class="form-label">Email</label>
+        <input id="email" class="form-input" />
+        <label for="phone" class="form-label">Telefone</label>
+        <input id="phone" class="form-input" />
+
+        <button class="submit-button">Falar conosco</button>
+      </form>
+    </section>
   </body>
 </html>
