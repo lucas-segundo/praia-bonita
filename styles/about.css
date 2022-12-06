@@ -37,6 +37,10 @@ body {
   background-color: #f9d199;
 }
 
+.menu-header ul {
+  list-style: none;
+}
+
 .menu-header ul li {
   display: inline;
 }
@@ -70,4 +74,49 @@ main > h2 {
   font-size: 24px;
   line-height: 29px;
   max-width: 640px;
+}
+
+.title-founder {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.container-founder {
+  display: flex;
+  margin-left: 70px;
+}
+
+.founder-card {
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+}
+
+.name-founder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  font-style: normal;
+  color: #000;
+  margin-left: 30px;
+}
+
+.office-founder {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  color: #000;
+  margin-top: 5px;
+  margin-left: 36px;
+}
+
+.img-founder {
+  width: 150px;
+  height: 150px;
+  margin-left: 90px; 
 }
