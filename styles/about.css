@@ -77,18 +77,14 @@ main > h2 {
 }
 
 .title-founder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 40px;
   margin-top: 50px;
-  margin-left: 70px;
 }
 
-.container-founder {
+.founders-container {
   display: flex;
-  margin-left: 70px;
 }
 
 .founder-card {
@@ -118,5 +114,4 @@ main > h2 {
 .img-founder {
   width: 150px;
   height: 150px;
-  margin-left: 90px; 
 }
