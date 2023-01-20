@@ -1,4 +1,4 @@
-# Projeto Praia Bonita
+# Welcome to Praia Bonita
 
 This project is a collaborative development initiative that aims to create a website that presents some well-known beaches of the Brazilian coast. The goal of this project is to practice collaborative development, thus having the experience of how multiple developers work on the same code.
 
