@@ -4,10 +4,10 @@ This project is a collaborative development initiative that aims to create a web
 
 ## Project Structure
 
-* Pages, such as index.html, should be in the root of the project to facilitate routing through links.
-* The styles/ folder will contain the .css files to include the styles of the pages.
-* The .prettierrc.json file contains the code formatting rules.
-* The .vscode/ folder contains formatting settings following the rules of the .prettierrc.json file. It is suggested to use vscode.
+* Pages, such as ```index.html```, should be in the root of the project to facilitate routing through links.
+* The ```styles/``` folder will contain the ```.css``` files to include the styles of the pages.
+* The ```.prettierrc.json``` file contains the code formatting rules.
+* The ```.vscode/``` folder contains formatting settings following the rules of the ```.prettierrc.json``` file. It is suggested to use vscode.
 
 ## Workflow
 
